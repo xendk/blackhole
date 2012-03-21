@@ -85,7 +85,7 @@ function blackhole_field_storage_delete_instance($instance) {
  */
 function blackhole_field_storage_query($query) {
   // Nothing to do.
-  return $query;
+  return array();
 }
 
 // Widget.
